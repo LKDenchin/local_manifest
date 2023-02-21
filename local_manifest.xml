@@ -19,6 +19,10 @@
                 fetch="https://github.com/rabilrbl/"
                 clone-depth="1" />
 
+        <remote name="GhostMaster69-dev"
+                fetch="https://github.com/GhostMaster69-dev/"
+                clone-depth="1" />
+
         <remote name="iusmac"
                 fetch="https://github.com/iusmac"
                 clone-depth="1" />
@@ -31,8 +35,8 @@
                 revision="bananadroid-13.0" />
         <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="rom-builder"
                 revision="13.0" />
-        <project path="kernel/xiaomi/vince" name="android_nito_kernel_vince" remote="rom-builder"
-                revision="praise-and-crowd" />
+        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince"
+                remote="GhostMaster69-dev" revision="master" />
 
         <!-- Sepolicy -->
         <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um"
