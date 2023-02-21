@@ -27,7 +27,7 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="aosp-clang" remote="me-lab" revision="clang-16.0.2" />
 
  <!-- Packages -->
- <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" />
+<!--  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" /> -->
 
  <!-- RevampedFMRadio -->
  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
