@@ -1,35 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
- <!-- Remotes -->
-    <remote name="me-hub"
-            fetch="https://github.com/anandhan07/"
-            clone-depth="1" />
+        <!-- Remotes -->
 
-    <remote name="me-lab"
-            fetch="https://gitlab.com/anandhan07/"
-            clone-depth="1" />
+        <remote name="anandhan_gitlab"
+                fetch="https://gitlab.com/anandhan07/"
+                clone-depth="1" />
 
-    <remote name="GhostMaster69-dev"
-            fetch="https://github.com/GhostMaster69-dev/"
-            clone-depth="1" />
+        <remote name="rom-builder"
+                fetch="https://github.com/rom-builder/"
+                clone-depth="1" />
 
-    <remote name="iusmac"
-            fetch="https://github.com/iusmac"
-            clone-depth="1" />
+        <remote name="rabilrbl"
+                fetch="https://github.com/rabilrbl/"
+                clone-depth="1" />
 
- <!-- Trees -->
- <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="me-hub" revision="ricedroid-13.0" />
- <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="me-hub" revision="13.0" />
- <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="GhostMaster69-dev" revision="master" />
+        <remote name="iusmac"
+                fetch="https://github.com/iusmac"
+                clone-depth="1" />
 
- <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="aosp-clang" remote="me-lab" revision="clang-16.0.2" />
+        <!-- Trees -->
+        <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="rom-builder"
+                revision="bananadroid-13.0" />
+        <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="rom-builder"
+                revision="13.0" />
+        <project path="kernel/xiaomi/vince" name="android_nito_kernel_vince" remote="rom-builder"
+                revision="praise-and-crowd" />
 
- <!-- Packages -->
- <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="me-lab" revision="master" />
+        <!-- Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="aosp-clang"
+                remote="anandhan_gitlab" revision="clang-16.0.2" />
 
- <!-- RevampedFMRadio -->
- <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
+        <!-- RevampedFMRadio -->
+        <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac"
+                revision="qcom" />
 
 </manifest>
