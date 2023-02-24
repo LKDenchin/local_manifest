@@ -33,7 +33,7 @@
         <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="rom-builder"
                 revision="13.0" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince"
-                remote="GhostMaster69-dev" revision="master" />
+                remote="rom-builder" revision="main" />
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="aosp-clang"
