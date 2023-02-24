@@ -29,7 +29,7 @@
 
         <!-- Trees -->
         <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="rom-builder"
-                revision="bananadroid-13.0" />
+                revision="pixelos-13.0" />
         <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="rom-builder"
                 revision="13.0" />
         <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince"
