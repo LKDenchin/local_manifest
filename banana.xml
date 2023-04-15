@@ -7,20 +7,8 @@
                 fetch="https://gitlab.com/anandhan07/"
                 clone-depth="1" />
 
-        <remote name="anandhan_github"
-                fetch="https://github.com/anandhan07/"
-                clone-depth="1" />
-
-        <remote name="rom-builder"
-                fetch="https://github.com/rom-builder/"
-                clone-depth="1" />
-
-        <remote name="rabilrbl"
-                fetch="https://github.com/rabilrbl/"
-                clone-depth="1" />
-
-        <remote name="GhostMaster69-dev"
-                fetch="https://github.com/GhostMaster69-dev/"
+        <remote name="banana_devices"
+                fetch="https://github.com/bananadroid-devices/"
                 clone-depth="1" />
 
         <remote name="iusmac"
@@ -28,12 +16,12 @@
                 clone-depth="1" />
 
         <!-- Trees -->
-        <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="rom-builder"
-                revision="bananadroid-13.0" />
-        <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="rom-builder"
+        <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="bananadroid-devices"
+                revision="thirteen" />
+        <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="bananadroid-devices"
                 revision="13.0" />
-        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince"
-                remote="rom-builder" revision="main" />
+        <project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince"
+                remote="bananadroid-devices" revision="main" />
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang"
