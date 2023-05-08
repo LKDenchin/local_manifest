@@ -26,18 +26,23 @@
         <remote name="iusmac"
                 fetch="https://github.com/iusmac"
                 clone-depth="1" />
+                
+        <remote name="GrapheneOS"
+            fetch="https://github.com/GrapheneOS/" />
 
         <!-- Trees -->
         <project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="rom-builder"
                 revision="pixelos-13.0" />
         <project path="vendor/xiaomi/vince" name="android_vendor_xiaomi_vince" remote="rom-builder"
                 revision="13.0" />
-        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince"
-                remote="rom-builder" revision="main" />
+        <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="GhostMaster69-dev" revision="master" />
 
         <!-- Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang"
                 remote="anandhan_gitlab" revision="17" />
+                
+        <!-- External -->
+        <project path="external/Camera" name="platform_external_Camera" remote="GrapheneOS" revision="13" />
 
         <!-- RevampedFMRadio -->
         <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac"
