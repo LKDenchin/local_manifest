@@ -7,7 +7,7 @@
             clone-depth="1" />
 
     <remote name="me-lab"
-            fetch="https://gitlab.com/LKDenchin/"
+            fetch="https://gitlab.com/anandhan07/"
             clone-depth="1" />
 
     <remote name="GhostMaster69-dev"
